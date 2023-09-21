@@ -1,0 +1,3 @@
+getgenv().identifyexecutor = function()
+    return "Hunter Z"
+end
