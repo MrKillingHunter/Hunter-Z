@@ -1,1 +1,1 @@
-setfps(999)
+setfpscap(999)
