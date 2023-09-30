@@ -1,0 +1,69 @@
+What Are Themes? Themes Are Custom Skins You Can apply To the UI of Hunter Z Reborn. You Will leanr How To Use Them Here
+
+Here Are The Preset Themes Availible In The UI Settings.
+
+1) Default
+
+2) Fatallity
+
+3) Ubuntu
+
+4) Tokyo Night (Hunter's Choice)
+
+5) Synapse X
+
+there is also a Synapse UI Version
+
+
+
+If You Would Like To Request A Custom Theme Of Yours To Be In The Next Update, You Will Simply Follow The Template Below (using Z#)
+
+
+______________________________________________________________________________________________________________________
+
+/-/ THEME TEMPLATE
+
+
+
+local var AUTHOR = ("Your Name Here") /-/ This is what the users will see at the top for credits to you
+local ThemeName = ("the Name of ur theme") /-/ This Is What the users will see as the name of the theme
+
+group var = Colours /-/ this can be changed but remember to update the stuff that reference it
+
+Colours.Group = {
+
+	BackGroundColor = Color.YOURCOLORNAME end, \- color of the background -\
+	MainColor = Color.YOURCOLORNAME end, /-/ color of the buttons and main stuff
+	AccentColor = Color.YOURCOLORNAME end, /-/ accent color of the theme
+	FontColor = Color.YOURCOLORNAME end, \- the forecolor of text-\
+	GlowColor = Color.YOURCOLORNAME end, /-/ the color of the glow
+	InjectColor = Color.YOURCOLORNAME end, /-/ Color when succefully injected
+
+\- if you would like to use hex or argb,
+   you just need to type this instead 'Color.ARGB(alpha, red, green, blue)'
+   or 'Color.HEXMODE = 6DIGITHEX' -\
+
+}
+
+ExecutorThemes.ApplyTheme(Colours)
+
+
+________________________________________________________________________________________________________________________
+
+
+/-/ How to apply fanmade themes
+
+
+
+Type = CustomTheme
+
+ThemeName = ["THE NAME OF THE THEME U WANT TO APPLY"]
+ThemeCountifier = NUMBERINTHEFORUM
+
+ExecutorThemes.ApplyTheme(CustomTheme)
+
+
+___________________________________________________________________________________________________________________________
+
+
+If Your Theme Gets Verified by me or lewis, you may post it in the up-and-coming #CoomunityThemes channel in the discord for members to use
