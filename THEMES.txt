@@ -16,7 +16,7 @@ there is also a Synapse UI Version
 
 
 
-If You Would Like To Request A Custom Theme Of Yours To Be In The Next Update, You Will Simply Follow The Template Below (using Z#)
+If You Would Like To Request A Custom Theme Of Yours To Be In The Next Update, You Will Simply Follow The Template Below (using Hunt#)
 
 
 ______________________________________________________________________________________________________________________
@@ -47,6 +47,21 @@ Colours.Group = {
 
 ExecutorThemes.ApplyTheme(Colours)
 
+/-/ OPTIONAL
+\- group var = MonacoColors
+
+   MonacoColors.Group = {
+
+	Base = Theme.Base(Dark) end, /-/ there are 3 bases, custom (ours), Dark, and light
+	TxtDocCol = Color.White[] end, /-/ just like normal, u can do .ARGB or .HEXMODE
+	global = Color.HEXMODE = 48A4C8 end,
+	keyword = Color.Green[] end,
+	disablefol = Color.DarkSlateBlue[] end,
+	number = Color.IndianRed[] end,
+	stringt = Color.ARGB(144, 238, 144)[] end,
+}
+
+MonacoThemes.ApplyColor(MonacoColors)
 
 ________________________________________________________________________________________________________________________
 
